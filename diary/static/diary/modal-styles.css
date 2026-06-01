@@ -1,0 +1,150 @@
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    /* Overlay itself does NOT scroll — the inner modal-content does */
+    overflow: hidden;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-content {
+    background: rgba(15, 31, 56, 0.6); /* Default frosted base */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 520px;
+    /* Scroll lives HERE — on the content box, not the overlay */
+    max-height: 88vh;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    box-sizing: border-box;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+    color: var(--text-primary);
+    /* Thin visible scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255,255,255,0.4) transparent;
+}
+.modal-content::-webkit-scrollbar { width: 5px; }
+.modal-content::-webkit-scrollbar-track { background: transparent; }
+.modal-content::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.35); border-radius: 3px; }
+
+.modal-overlay.active .modal-content {
+    transform: translateY(0);
+}
+
+.auth-form {
+    animation: fadeInForm 0.4s ease forwards;
+}
+
+@keyframes fadeInForm {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.modal-header h3 {
+    margin: 0;
+    color: var(--accent-primary);
+}
+
+.btn-close {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background: rgba(0,0,0,0.2);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    color: #fff;
+    font-family: var(--font-main);
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.btn-secondary {
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: var(--font-main);
+    transition: var(--transition-smooth);
+}
+
+.btn-secondary:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.floating-action-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--accent-gradient);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: none;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+    cursor: pointer;
+    z-index: 100;
+    transition: transform 0.2s;
+}
+
+.floating-action-btn:hover {
+    transform: scale(1.1);
+}

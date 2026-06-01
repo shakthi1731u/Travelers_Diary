@@ -1,0 +1,211 @@
+The name of the project is travalers diary the agenda of the application is the user can post a picture of video about where he/she 
+travelled and the minutue details the nuances that make the application make it standalone(nuances mean the small details that the
+application better than others)This application have comment functionality where user can comment the image or the video that the other
+user post. They have the profile which contains their profile image their bio, their status(if their on trip or not anything), their 
+travelle plan. In the beginning when user click the link of in browser it must show the google map(any free version of the map) then
+a location permission is asked if the user accept the permission then the people from the particular location is showed otherwise popele
+from random location picked and presented. The anonymus user can view the other user profile but they cannot comment they profile can 
+private as well if the user sends a request the appected user only can view the profile.
+
+tech stack 
+backend = django
+frontend = html, css, js
+database = mysql
+
+modification 1:
+I want the login option in round foramat with profile photo of the person if the person is not logged in then keep it as person image.
+I want you to create a button in right side bottom which take me where ever i am from the location i am right now.
+The profile section is fine but it feels bit awkard and overall I don't like the accent I want it to be more like fantasy light green
+glossy effects with forest and dessert and other themes the theme has to change randomly every time when the user logged in if the 
+user prefer to stay in one style them they enable it in the settings. create and dark and light in every theme possible.Different theme
+sepearte option and dark and light is a separte option for each theme possible.
+
+modification 2:
+when I click the take to my location option it will take me to my location with out any issue but it will take me to feed as second 
+I don't want go to feed after I clicking the the button.I want you to develop the login page after user clicks the login option in 
+useroption in the top right corner it follows the same forested glass design with sign up user asking username, email, password and confirm
+password and submit button. in the button I want login option so the signup user can login in. The map looks fine but when I zoomed completely
+I not look very nice I want the map to finished properly or infinite it is upto you choose which fits perfectly I one more important 
+thing I the entire them to follow some sort of theme pattern like jungle so tree branches water fall all over the page in fancy way 
+not as image some interacting form and ocean as a second theme and dessert as third theme these make the entire page looks different
+at each style I every button every widget that follows this theme pattern so it looks fun and interative.
+
+modification 3:
+When click the profile option it take a 3 to 5 seconds to load. The scrollbar on the feed and profile looks bit akward I want them in the
+right side rather than sticking to the content. Transition animation I want transition animation everywhere so it make the entire page looks
+more enjoyable so add more animation espcially in the login and sinup page switching area and make the rounded corner.
+
+modification 4:
+Make the entire app that fit all type of screen(meaning mobile, tablet, tv, computerscreen even for smartwatches). the zoom-in and zoom-out
+button on the top left is hiding under the navbar on top fix that and the profile icon on the top right is not perfect(bit imperfect fix that).
+After clicking to the go to my location once it got zoomed in populate with some random meaning(show some random user data in pin point form).
+Still the application is not fun to interact with so make the application is more fun and interative with snake going in the screen and 
+camel for desert theme, fish jumping on the ocean theme even in the main so, it will make the entire application more fun interact with.
+
+modification 5:
+Zoom-in and Zoom-out option is missing in the ocean theme. Map is not working properly in forest theme. There is an outline around the profile in 
+ocean theme fix that. The map seems very boring so, if possible add 3d map instead of plain 2d flap map. Add water splash effect in ocean theme
+light sand strome in desert theme I want animation please include that. Add a followers option in navbar and once it got clicked take the user
+to the followers page and fill the followers page with dummy data. One the user on the map got clicked open their profile on top of the current
+page as a overlay like login page just open the users profile(at first show their recently posted content as diary). make the login and sigup page
+corner in rounded form.
+
+modification 6:
+After clicking the profile of the other users appearing in the use-my location option I want their data to present in the book format like exact book 
+in image keep that in mind and by the time of entering into the application without login the use my location option looks bit akward change the style
+of it. use the style of diary from image.
+
+modification 7:
+remove the use my location option in center of the application from the app instead the option in the bottom in right corner when the anonymus user came in 
+the new(not logged in user) i'm talking about then let the button in the corner to blink show splash effect let the button blink and somesort of indication
+to make the user see there is button that needs to pressed do that first then. I only want map in the front no other option like follower below the map
+nothing like that I don't want so, remove that section instead put those options like feed, explore, and followers appear in coardboard format like
+login option appearing as overlay on top of the current so follow the style principle the map is the main section all the option should appear on top
+of the current page. The seem finite make sure it infite cause the border that appear once it reaches the limit seems not fine so remove the borader 
+or make the page fit fine verticially horizontally it is fine and one more thing create a search bar option below the nav bar text option travelers diary
+that must match the style principle of each theme. if possible add different map style to different theme for forest theme make the mapper more greener.
+
+
+modification 8:
+I don't why the map is not appearing properly this time I saw only bluecolor screen and the use my location option you miss understand
+that I'm talking about that I want the eye option that option will take me to my location and that option to be blinked and still the 
+border exists in the bottom so remove that I dont' want that. the search boption below the traveleres diary that looks fine but the 
+issue I want the input box to be present the outside the navbar but below the travelers' dairy again outside the navbar(off of the 
+nav bar) and the explorer and feed option i want card style for that as well like followers so, keep that in mind.
+
+modification 9:
+The boarder on the left and right in the jungle theme is not fine I don't like it I want you to make the boarder like in the sea theme
+and in sea/ocean theme the search option hits the border a bit move it little right and the zoom-in zoom-out option is hiding the right
+border checkthat out and still the explore option is not working so, make the cardboard option to appear after clicking it. There is no
+boarder in the desert theme so don't forget to add one if you are adding that makesure that the zoom-in and out option is not hidden under
+the border.
+
+modification 10:
+still the border appears fix that or set the maximum zoom-out limit to prevent this issue I don't want this to happen any more. elements one the right and left
+border border of the dessert and forest theme so add some elemnts like cactus camel and someother in desert and mathching elements in 
+forest as we don't forgot add. The login and singup page they both look normal so make it more interactive the make the boarder rounded and the transistion animation
+between login and singup should be smoother and background should forested glass apply for the login and singup and. I don't frosted 
+glass design to be in the searchbar in the home screen. The go to my location button on the buttom right corner somehow linked to explorer 
+option I don't want the explorer right only open the overlay cardboard option with dummy data that have nothing to do with this button
+so remove the connection the take me to myt location button only do take me to my location that's it.
+
+modification 11:
+Now make the searchbar functional by letting search the places by input and also insert a search button within the inputbox and make sure 
+it also take lat and long as input and find a place in map when user hit u or us provide the places in dropdown menu you know shows the simlar
+places in the follow up dropdown menu that also follows the same style pattern I mean the theme of the each style. make the overall style
+little froested I'm mean I want forested glass style. Let's move on to the django phase meaning the put all the frontend inside and other
+files in django host structure and then we continue developing application from that enviroment cause them make the overall structure intact
+i believe and create and database to store all the user data like log's login details.
+
+modification 12:
+The search button goes to left side of the search box akward so place the button within the left side of the searchbox. The serachbox is not functional 
+so far so make the box functional and the js, index.html, and other files are outside the traverlers diary so remove what are unncessary fro the project otherwise 
+it will make the entire project structure looks akward I want you to place the search button in appropriate place and make the searchbox functional and remove
+uncessary files from the project.
+
+modification 13:
+This is the current file structure the html, js, css files that used previously are there uncessary so remove what are uncessary. The overall webpage feels laggy so
+use any technology make the entire web page more snapiers more faster more smoother to use.
+
+modification 14:
+Now make the login and signup functionality usable by make it connect to the database and email verification functionality by sending otp and if the otp is verified
+then the user can proceed add a froested glass design to the login and signup page.
+
+modification 15:
+After clicking signup option there is no otp and it's directly loged in without even prompting that you have successfully sinup nothing appeared after a successfull
+login so, tell me how to fix the otp issue first then after the verification I would like prompt user the your account has been successfully activated in theme based popup
+should appear and then every time use login the application I needs to verify that in the databased and password must stored in the hash format I would like to store in the 
+password sha256 format that is mandatory along with salting. After successful login add section called profile within that section user 
+can handle his profile like he change his username, password via otp verification his gender, age, destination, status, his profile picture.
+
+modification 16:
+add this functionality check before adding that the user already there in the database and if not then add the user into the database in signup process also do the same for login
+whether the user exists in the database for login. Now let's create the profile section the user can add his profile picture, change his username, password, his gender, age, 
+destination, status so make a modification the database for this upcoming changes if necessary also add field for photo, video comment because these are the funcioanlity that going
+happen create as many tables as possible to make the overall structure look more easy to handle so, I can present the project more easily. 
+
+modification 17:
+The profile section have different background then feed, followers what I meed I need same carboard style design but I need transparent background when the profile section option
+I want the search option to close when close the profile section I want the search bar to come back and also the profile picture datatype should blob(binary large object) it needs
+to load the image from file so change the input fields accordingly.
+
+modificaton 18:
+the profile section is not fitting perfectly and i very hard for to close the profile section fix that and dateofbirth option is not fine so change that and gender create dropdown
+menu for gender with fixed number of option remove the manual hardcoded entry only user can choose from the dropdown menu itself the values are male, female, transgender and other.
+whenever the cardboard windows are opened the windows can be closed if the mouse clicked the left or right of the cardboard window next to the empty space of the carboard window and
+the save details button in the profile section is not working fix that.
+
+modification 19:
+let's fix the profile section. In profile after applyin the save profile option it saying attention profile save successfully it seems like some sort or error fix that make the save profile
+option comes in grees with tick sign instead of escalmatory sign. The profile is not fit properly to the page and unable to scroll through as well fix that. Whenever the user got logged in 
+his profile uploaded through profile section is not presnted instead some radom image of an random person appear that is fine for the anonymus user that is not the case for the logged in 
+user who upload the image via the profile section so, the when user upload an image then put in the profile icon in the top right corner. The overall application become less accessible on mobile
+device fix that I already told you that I'm going to use this application on the mobile phone as well by the time of developing make sure everything fits on mobile as well. Change password
+request otp email option is not working it through me an error as in the image take a look at it and give a fix.
+
+modification 20:
+Why none of the issues I mentioned is not fixed why first thing there is no scroll bar in the profile section fix that. change password functionality in the profile section is through an error
+as per in the given image fix that it is not working. profile picture functionality when the user upload an image via the profile section that must be presented on profile icon on the home
+screen so store the all the values of the profile in the mysql database that we already created if there is not database create one and save it. After applying the details on the profile section
+it showing the success image in the attention type it look like an error fix that. Profile section is not fit to the page properly fix that meaning the top and bottom is not properly into the screen
+fix that.
+
+modification 21:
+I'm using openfree map the open free map come with man different styles would you put those style like in the image it must present in the bottom left corner of the screen. After login the profile
+picture is not updata It need an action like profile option to be clicked after that the profile image is got updated why. After closing the profile section it opens the explore section fix that.
+
+modification 22:
+The map style changing functionality in the bottom works fine but I want the design to be link this at first it is should one round(the one round represents current design) and if the round got clicked
+it should be expanded and show the other designs and store the theme, map theme, appearance everthing in a database so, the user whenever logged in on a new computer or other device the data an be 
+retrived so store all the current details and upcoming details(datas) into the database so, it can retrived and used because it enhance the user experience.
+
+modification 23:
+The map style design is not blend very well so make the map theme selecter light right and when expaded then style is not looking very fine fix the the left it have square conerner make it blend with
+the theme. The map theme selector i behave alongside with system theme so if the system theme change dark or light make sure it blend with the system theme i mean the map selector interface it self 
+not the map.
+
+modification 24:
+In firefox the the searchbox in the top left side looks akward why fix that. Let's move on to the development of followers section remove the dummy followers data and write the followers functionality 
+and following by name the followers into people(any other best name you suggest if you feel people is professional the single page going to contain both followers and following that is why I try to name 
+it as poeple create a cardboard window showing followers and follow along with serach option to filter out followers what are the important functionality you found in other social media application that 
+really make sense to include please include that in that application add the unfollow option include block option and create block container but little hidden within the people section of the nav bar.
+If the user anonymus(not logged in) then remove the followers section, feed, section, leave the explore section alone. When a user found in the map when their diary got opened in that diary I want you to 
+include the follow option if that follow is clicked you know what to do. Create notification section in the navbar if the user receives or have any notification let notification section to be visible 
+if there is no notification everything got cleared then make the notification section invisible. I want the notification section to be present right next to the profile section but in the left side.
+
+modification 25:
+Let's deal with post funcionality. In the post functionality the insert a image, video from file and he add a description, budget, and the destination, nuances if any other details I miss that might 
+that actaully make sense then add it. Before posting the compulsiory step has done this is very very mandatory which is the location where the user like to post this data at. Who are all other seeing this
+data it must present in the diary format that must match the theme of the interface. and that diary includes follow and goto profile option it will then take the current user to the actual profile user 
+who post the data. The profile should be presetn card borad format in the top i must show the users data like how many travells, best travell, overall cost he spended everthing and this status gender
+what are the details that the users profile carries must be present in the top and in the bottom section his posts everthing should present beautifully like in instagram but I want my own style I don't 
+no what it is suggest me something for the user profile presenting format. Add a option in setting if the user put his profile in private mode then nobody can see it first they have to make a friend request
+via this diary if they accpet then they can see the profile. Add a section in settings called privacy with in that add a option to include or remove the info that the user want the other user see about him.
+
+modification 26:
+Every time I try to singup with new gmail the previously inputed data is there including in the otp section as well so, manual intervention is required to remove all those data fix that. After creating an 
+account it won't let me in fix that and this is the error = 
+
+modification 27:
+Every time time I visit the the signup and login page the previously inputed data is there I have to manually delete all those data it is cumbersome so, help me fix that by removing the data as soon the page
+got closed. In the signup after clicking the signup button it says sending otp instead of doing that move to next page the otp page make the otp sending process happening in the background don't so the otp 
+send data to the user. Let's move on to the feed section. In the post functionality the insert a image, video from file and he add a description, budget, and the destination, nuances if any other details I miss that might 
+that actaully make sense then add it. Before posting the compulsiory step has done this is very very mandatory which is the location where the user like to post this data at. Who are all other seeing this
+data it must present in the diary format that must match the theme of the interface. and that diary includes follow and goto profile option it will then take the current user to the actual profile user 
+who post the data. The profile should be presetn card borad format in the top i must show the users data like how many travells, best travell, overall cost he spended everthing and this status gender
+what are the details that the users profile carries must be present in the top and in the bottom section his posts everthing should present beautifully like in instagram but I want my own style I don't 
+no what it is suggest me something for the user profile presenting format. Add a option in setting if the user put his profile in private mode then nobody can see it first they have to make a friend request
+via this diary if they accpet then they can see the profile. Add a section in settings called privacy with in that add a option to include or remove the info that the user want the other user see about him.
+
+modification 28:
+In post functionality remove the media by URL just the user can upload the data from the local media itself and at a time he only post one image but this is diary so he can post 5 images in base64 format and 3
+video with 2 minute duration at a time so, create the first section image where user can upload maximum of 5 images and each image should have a preview and when image got clicked the preview must be presented 
+the same goes to video as well the video must presented in the preview for all the 3 videos the maximum the user can upload. This is very important thing user cannot pin point a location in a map so, create a 
+functionality for that that is important for the post function case the first thing that post is looking for is the location of the user where the user like post this info. After user uploaded the data it must 
+not others who are all for this user by the notification featuer. If a user see this data in the map then it must presented in the diary format and follow option beneath if the data is view in profile section 
+then it must presented in the grid format like instagram.
+
+modification 29:
+In the feed section slipt the section in to two halves like my post and global feed don't show my post in global feed to me instead so my post to me only in the my post section and let it editable and in global 
+post section only show the other profile who are all public not private. Now remove the dummy data that appear after I click the go to my location option instead show the data of the user who actaully post a diary
+from that location which appear in the diary format with follow option. 
